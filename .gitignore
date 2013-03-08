@@ -1,7 +1,8 @@
 #################
 ## Eclipse
 #################
-
+.gitignore
+.gitattributes
 *.pydevproject
 .project
 .metadata
