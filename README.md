@@ -14,7 +14,8 @@ Webshell find tools
 
 ## ala.py (Access Log Analyzer)
 
-这个脚本的思路是：__分析Accesslog文件，然后按照访问次数、存在性排序所有请求的路径。去除所有静态文件。如果是个访问量较大的网站，通常访问最少的几个文件就是Webshell。__
+这个脚本的思路是：
+> 分析Accesslog文件，然后按照访问次数、存在性排序所有请求的路径。去除所有静态文件。如果是个访问量较大的网站，通常访问最少的几个文件就是Webshell。
 
 ### Useage
 
@@ -50,7 +51,8 @@ python ala.py -l access_log -w /var/www -n 100 -f combined
 
 ## fca.py (File Ctime Analyzer)
 
-这个脚本的思路是：__将文件系统中的文件按照改动时间区段分组。一般情况下，web目录下的文件创建时间是集中的。如果某些文件创建时间比较不合群，那么这个文件是webshell的可能性就很大。__
+这个脚本的思路是：
+> 将文件系统中的文件按照改动时间区段分组。一般情况下，web目录下的文件创建时间是集中的。如果某些文件创建时间比较不合群，那么这个文件是webshell的可能性就很大。
 
 ### Useage
 
