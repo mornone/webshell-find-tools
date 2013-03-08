@@ -21,49 +21,16 @@ Webshell find tools
 ```
 
   -l, --logfile=filepath                Apache access logfile
-
-  
-
   -o, --output=filepath                 Result tmpfile path
-
-
-
   -w, --webroot=webpath                 Real web root path
-
-
-
   -n, --number=number                   Display result numbers(default:all result)
-
-
-
   -f, --format=logformat                Apache access log format(default:combined. avlible: common, combined or a valid log format string)
-
-  
-
   -v, --verbosity                       Display verbosity information  
-
-
-
   -m, --minrequest                      Display result sort by min request numbers
-
-
-
   -M, --maxrequest                      Display result sort by max request numbers
-
-
-
   -e, --exists                          Display result sort by exists
-
-
-
   -E, --lost                            Display result sort by lost
-
-  
-
   -s, --showstatic                      Display static files as well(js, images, css, zip, gz)
-
-
-
   -h, --help                            Display this help and exit
 
 ```
